@@ -21,7 +21,7 @@ public abstract class Robot {
     }
 
 
-    void gamepadInit(Gamepad gamepad1, Gamepad gamepad2) {
+    public void gamepadInit(Gamepad gamepad1, Gamepad gamepad2) {
         this.gamepad1 = gamepad1;
         this.gamepad2 = gamepad2;
     }
